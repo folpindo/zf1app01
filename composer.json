@@ -1,0 +1,27 @@
+{
+    "name": "folpindo/zf1app01",
+    "require": {
+        "zendframework/zendframework1": "1.*",
+		"monolog/monolog":"1.2.*"
+    },
+    "authors": [
+        {
+            "name": "Faustino Olpindo, Jr.",
+            "email": "folpindo@gmail.com"
+        }
+    ],
+	"autoload":{
+		"psr-0":{
+			"Test":"src"
+		},
+		"psr-4":{
+			"Sample\\":"src/Sample",
+			"Application\\":"src/Sample"
+		}
+	},
+	"config":{
+		"github-oauth":{
+			"github.com":"3f6295fa5ab7fe780f51b4ab7a78fdcec20e1c91"
+		}
+	}
+}
